@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AURASAFE - Women's Safety Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Section -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <!-- <img src="logo.jpg" alt="AURASAFE Logo"> -->
+                <h1>AURASAFE</h1>
+            </div>
+            <ul class="nav-links">
+                
+                <li><a href="#Home"class="Hideonmobile">Home</a></li>
+                <li><a href="#"class="Hideonmobile">About</a></li>
+                <li><a href="#"class="Hideonmobile">Services</a></li>
+                <li><a href="#"class="Hideonmobile">Resources</a></li>
+                <li><a href="#contactModal"class="btn-contact">Contact</a></li> <!-- Contact Button -->
+                <div class="login-btn">
+                    <a href="#loginModal" class="btn-login">Login</a>
+                </div>
+                <li ><a href="#menuBtn"class="menu-Btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="34px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+                <ul class="sidebar">
+                <li><a href=""class="close-Btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#contactModal"class="btn-contact">Contact</a></li> <!-- Contact Button -->
+                <div class="login-btn">
+                    <a href="#loginModal" class="btn-login">Login</a>
+                </div>
+            </ul>  
+              
+            
+        </nav>
+    </header>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login to AURASAFE</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" name="loginEmail" required>
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+                <button type="submit" class="btn">Login</button>
+                <div class="additional-options">
+                    <a href="#">Didn't sign up?</a> | 
+                    <a href="#">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="contactEmail">Email:</label>
+                <input type="email" id="contactEmail" name="contactEmail" required>
+                <label for="contactPhone">Phone Number:</label>
+                <input type="tel" id="contactPhone" name="contactPhone" required>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="Home">
+        <div class="hero-content">
+            <h3>Your Safety, Our Priority</h3>
+            <h1>AURASAFE - Empowering Women Everywhere</h1>
+            <p>Providing essential resources and a safe space to ensure the well-being and security of women globally.</p>
+            <a href="#" class="btn">Explore More</a>
+        </div>
+        <div class="hero-image">
+            <img src="logo.jpg" alt="AURASAFE Logo">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service">
+            <h2>Emergency Assistance</h2>
+            <p>Connect with emergency contacts, police, and support services instantly via our platform.</p>
+        </div>
+        <div class="service">
+            <h2>Community Support</h2>
+            <p>Join a network of women and allies dedicated to building a safer environment for everyone.</p>
+        </div>
+    </section>
+    <footer class="ending">
+        <div class="icons">
+            <img src="icons8-facebook-24.png" alt="">
+            <img src="icons8-instagram-24.png" alt="">
+            <img src="icons8-twitter-24.png" alt="">
+        </div> 
+        <ul>
+            <li>
+                <a href="#">Legal</a>
+            </li>
+            <li>
+                <a href="#">privacy and policy</a>
+            </li>
+            <li>
+                <a href="#">Accessibility</a>
+            </li>
+            <li>
+                <a href="#">Copy Right</a>
+            </li>
+
+        </ul>
+        
+      </footer> 
+    <script src="script.js"></script>
+</body>
+
+</html>
