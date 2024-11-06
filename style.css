@@ -372,7 +372,7 @@ header {
         display: none;
      }
 }
-@media (max-width: 700px) {
+@media (max-width: 450px) {
     .hero {
         flex-direction: column; /* Stack hero section on smaller screens */
         padding:150px 100px 110px;
