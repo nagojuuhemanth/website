@@ -373,9 +373,21 @@ header {
      }
 }
 @media (max-width: 450px) {
+    .nav-links{
+        padding-left: 0.1px;
+    } 
+    .nav-bar{
+        width: 30%;
+    }
+    .btn-contact{
+        display: none;
+    }
+    .btn-login{
+        display: none;
+    }
     .hero {
         flex-direction: column; /* Stack hero section on smaller screens */
-        padding:150px 100px 110px;
+        padding:155px 50px 65px;
     }
     .hero-image{
         display: none;
@@ -386,6 +398,7 @@ header {
     .menu-Btn{
         display: block;
     }
+}
 }
 footer {
     background-color: rgb(23, 28, 40);
